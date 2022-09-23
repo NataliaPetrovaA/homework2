@@ -1,0 +1,15 @@
+C:\Users\Nataly\Desktop\seminar2_homework\task14\obj\Debug\net6.0\task14.csproj.AssemblyReference.cache
+C:\Users\Nataly\Desktop\seminar2_homework\task14\obj\Debug\net6.0\task14.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nataly\Desktop\seminar2_homework\task14\obj\Debug\net6.0\task14.AssemblyInfoInputs.cache
+C:\Users\Nataly\Desktop\seminar2_homework\task14\obj\Debug\net6.0\task14.AssemblyInfo.cs
+C:\Users\Nataly\Desktop\seminar2_homework\task14\obj\Debug\net6.0\task14.csproj.CoreCompileInputs.cache
+C:\Users\Nataly\Desktop\seminar2_homework\task14\bin\Debug\net6.0\task14.exe
+C:\Users\Nataly\Desktop\seminar2_homework\task14\bin\Debug\net6.0\task14.deps.json
+C:\Users\Nataly\Desktop\seminar2_homework\task14\bin\Debug\net6.0\task14.runtimeconfig.json
+C:\Users\Nataly\Desktop\seminar2_homework\task14\bin\Debug\net6.0\task14.dll
+C:\Users\Nataly\Desktop\seminar2_homework\task14\bin\Debug\net6.0\task14.pdb
+C:\Users\Nataly\Desktop\seminar2_homework\task14\obj\Debug\net6.0\task14.dll
+C:\Users\Nataly\Desktop\seminar2_homework\task14\obj\Debug\net6.0\refint\task14.dll
+C:\Users\Nataly\Desktop\seminar2_homework\task14\obj\Debug\net6.0\task14.pdb
+C:\Users\Nataly\Desktop\seminar2_homework\task14\obj\Debug\net6.0\task14.genruntimeconfig.cache
+C:\Users\Nataly\Desktop\seminar2_homework\task14\obj\Debug\net6.0\ref\task14.dll
