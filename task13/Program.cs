@@ -1,19 +1,30 @@
-﻿void task13()
-{// Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
-Console.WriteLine("Введите число!");
-int number = Convert.ToInt32(Console.ReadLine());
-//number = MaTh.Abs(number);
-if (number >99)
+﻿// task13
+// Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+int GetNumber()
 {
-    while(number > 999)
+    Console.WriteLine("Введите число!");
+    return Convert.ToInt32(Console.ReadLine());     
+}
+void CheckHundreds(int number)
+{
+    int сurrenе_number = number;
+   
+    if (сurrenе_number > 99)
     {
-        number /= 10;
+    while(сurrenе_number > 999)
+    {
+      сurrenе_number = сurrenе_number /10;
+        // int result = сurrenе_number % 10;
     }
-    Console.WriteLine("Тетья цифра введенного числа " + number%10);
+    Console.WriteLine("Третья цифра введенного числа " + сurrenе_number%10);  
+    }
+    else
+    {
+        Console.WriteLine("Третьей цифры НЕТ!");
+    }
+
+    
 }
-else
-{
-    Console.WriteLine("ОШИБКА! Третьей цифры НЕТ!");
-}
-}
-task13();
+
+int number = GetNumber();
+CheckHundreds(number);
