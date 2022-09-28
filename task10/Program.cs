@@ -1,5 +1,4 @@
-﻿//  task10
-// Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+﻿// Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 int GetNumber()
 {
     int number = 0;
@@ -11,7 +10,7 @@ int GetNumber()
        return number;
 }
 
-void CheckHundreds(int number)
+void CheckDozens(int number)
 {
     int сurrenе_number = number;
 
@@ -19,10 +18,10 @@ void CheckHundreds(int number)
     {
         сurrenе_number = сurrenе_number /10;
     }
-    
+
     int result = сurrenе_number % 10;
     Console.WriteLine("Вторая цифра введенного числа " + (result));
 }      
    
 int number = GetNumber();
-CheckHundreds(number);
+CheckDozens(number);
