@@ -1,14 +1,28 @@
-﻿void task10()
-{// Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
-Console.WriteLine("Введите число!");
-int number = Convert.ToInt32(Console.ReadLine());
-if (number >99 && number< 1000)
-    { 
-    Console.WriteLine("Вторая цифра введенного числа " + (number/10%10));
-    }
-    else
+﻿//  task10
+// Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+int GetNumber()
+{
+    int number = 0;
+    while (number < 99 || number > 999)
     {
-    Console.WriteLine("ОШИБКА! Число не трехзначное");
+       Console.WriteLine("Введите число!");
+       number = Convert.ToInt32(Console.ReadLine());  
     }
+       return number;
 }
-task10();
+
+void CheckHundreds(int number)
+{
+    int сurrenе_number = number;
+
+    while (сurrenе_number >= 99)
+    {
+        сurrenе_number = сurrenе_number /10;
+    }
+    
+    int result = сurrenе_number % 10;
+    Console.WriteLine("Вторая цифра введенного числа " + (result));
+}      
+   
+int number = GetNumber();
+CheckHundreds(number);
