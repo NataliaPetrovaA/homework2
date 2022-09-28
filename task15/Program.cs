@@ -1,23 +1,27 @@
-﻿void task15()
-{// Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
-Console.WriteLine("Введите число!");
-int day = Convert.ToInt32(Console.ReadLine());
-
-if (day >0 && day<8)
+﻿// Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, 
+// является ли этот день выходным.
+int GetNumber()
 {
-    if(day == 6 || day == 7)
+    int number = 0;
+    while (number < 1 || number > 7)
     {
-    Console.WriteLine("Да, выходной день");
+       Console.WriteLine("Введите число!");
+       number = Convert.ToInt32(Console.ReadLine());  
+    }
+       return number;
+}
+
+void CheckDayWeek(int number)
+{
+    if(number == 6 || number == 7)
+    {
+        Console.WriteLine("Выходной день");
     }
     
     else
     {
-    Console.WriteLine("Нет, рабочий день");
+        Console.WriteLine("Рабочий день");
     }
 }
-else
-{
-Console.WriteLine("ОШИБКА! Введены не корректные данные!");
-}
-}
-task15();
+int number = GetNumber();
+CheckDayWeek(number);
